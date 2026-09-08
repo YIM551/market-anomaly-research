@@ -81,6 +81,8 @@ python scripts/check_sources.py
 
 위 명령은 외부 API·학습 없이 Python 문법과 Notebook 구조를 검사합니다. 학습 실행 성공을 의미하지 않습니다.
 
+2026-09-09 코드 재검토의 [근거 위치와 후속 실험 범위](docs/evaluation-audit.md#코드에서-검증할-위치)를 추가했습니다. FinBERT 추론을 수면 LLM 파인튜닝과 혼동하지 않으며, 기존 평가 수치를 독립 테스트 성능으로 인용하지 않습니다.
+
 실험 검토용 의존성 목록은 `requirements.txt`에 있습니다. 원본 lock/version 정보가 없어 고정하지 않았으며, 검증된 재현 환경이 아닙니다. 코드에 f-string이 있어 Python 3가 필요합니다. 원본 Notebook의 Python 2.7.6 메타데이터는 코드와 모순되어 Python 3 커널 표시로 정리했습니다.
 
 라이선스가 허용된 데이터를 `data/raw/{TICKER}_augmented.csv`로 준비한 뒤 Notebook을 검토할 수 있습니다. `src/legacy_experiment.py`를 실행하면 모델 다운로드, 외부 시세 요청과 다수 학습이 발생합니다. 원자료 없이는 실행할 수 없고 현재 역사적 결과 재현은 검증하지 않았습니다.
