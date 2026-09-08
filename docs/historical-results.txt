@@ -1,0 +1,189 @@
+Stored outputs, not rerun results. Original notebook state may be inconsistent.
+
+SOURCE: 통합.ipynb; original cell index: 9; execution_count: 11
+
+[감성분석 기반 이상 탐지]
+   Stock  Precision  Recall  F1-score
+0  TRBO      0.250   0.500     0.333
+1  APPB      0.111   0.500     0.182
+2  AEMD      0.000   0.000     0.000
+3  NBDR      0.333   0.667     0.444
+4   GME      0.375   1.000     0.545
+
+
+SOURCE: 통합.ipynb; original cell index: 10; execution_count: 12
+
+[LSTM Autoencoder 기반 이상 탐지]
+   Stock  Best window  Best epochs  Precision    Recall  F1-score
+0  TRBO            5           70   0.388889  0.875000  0.538462
+1  APPB           10           70   0.421053  0.666667  0.516129
+2  AEMD            5           10   0.000000  0.000000  0.000000
+3  NBDR            5           35   1.000000  0.705882  0.827586
+4   GME            5           10   0.666667  0.769231  0.714286
+
+
+SOURCE: 통합.ipynb; original cell index: 11; execution_count: 21
+
+[XGBoost 통합 이상 탐지]
+   Stock  Precision  Recall  F1-score
+0  TRBO   0.500000     0.5  0.500000
+1  APPB   0.666667     1.0  0.800000
+2  AEMD   0.571429     1.0  0.727273
+3  NBDR   0.833333     1.0  0.909091
+4   GME   0.666667     0.5  0.571429
+
+
+SOURCE: 통합.ipynb; original cell index: 12; execution_count: 20
+
+[XGBoost 통합 이상 탐지]
+   Stock  Precision  Recall  F1-score
+0  TRBO   0.666667    1.00  0.800000
+1  APPB   0.571429    1.00  0.727273
+2  AEMD   0.571429    1.00  0.727273
+3  NBDR   0.625000    1.00  0.769231
+4   GME   0.333333    0.75  0.461538
+
+
+SOURCE: 통합.ipynb; original cell index: 13; execution_count: 13
+
+[XGBoost 통합 이상 탐지]
+   Stock  Precision  Recall  F1-score
+0  TRBO   0.666667     1.0  0.800000
+1  APPB   0.800000     1.0  0.888889
+2  AEMD   0.571429     1.0  0.727273
+3  NBDR   1.000000     1.0  1.000000
+4   GME   1.000000     0.5  0.666667
+
+
+SOURCE: 분석 데이터(autoencoder, 감성분석, xgboost).ipynb; original cell index: 13; execution_count: 101
+  Stock  Precision  Recall  F1-score
+0  TRBO      0.250   0.500     0.333
+1  APPB      0.111   0.500     0.182
+2  AEMD      0.000   0.000     0.000
+3  NBDR      0.333   0.667     0.444
+4   GME      0.375   1.000     0.545
+
+
+SOURCE: 분석 데이터(autoencoder, 감성분석, xgboost).ipynb; original cell index: 16; execution_count: 104
+
+=== LSTM Autoencoder 전체 실험 결과 ===
+Stock  Window  Epochs  Precision  Recall    F1  Elapsed
+ TRBO       5      10      0.353   0.750 0.480     1.79
+ TRBO       5      35      0.438   0.875 0.583     3.06
+ TRBO       5      70      0.389   0.875 0.538     5.43
+ TRBO      10      10      0.154   0.250 0.190     2.18
+ TRBO      10      35      0.292   0.875 0.438     4.15
+ TRBO      10      70      0.296   1.000 0.457     7.52
+ TRBO      20      10      0.238   0.625 0.345     2.97
+ TRBO      20      35      0.100   0.250 0.143     5.75
+ TRBO      20      70      0.182   0.500 0.267     9.84
+ TRBO      50      10      0.000   0.000 0.000     5.56
+ TRBO      50      35      0.023   0.125 0.038    11.57
+ TRBO      50      70      0.023   0.125 0.038    23.55
+ TRBO     100      10      0.000   0.000 0.000     8.68
+ TRBO     100      35      0.000   0.000 0.000    24.77
+ TRBO     100      70      0.000   0.000 0.000    45.53
+ TRBO     250      10      0.000   0.000 0.000    30.41
+ TRBO     250      35      0.000   0.000 0.000    92.71
+ TRBO     250      70      0.000   0.000 0.000   155.53
+ APPB       5      10      0.500   0.417 0.455     2.25
+ APPB       5      35      0.500   0.417 0.455     3.72
+ APPB       5      70      0.571   0.333 0.421     6.32
+ APPB      10      10      0.400   0.667 0.500     2.35
+ APPB      10      35      0.400   0.667 0.500     4.70
+ APPB      10      70      0.421   0.667 0.516     7.77
+ APPB      20      10      0.200   0.667 0.308     3.13
+ APPB      20      35      0.229   0.667 0.340     6.71
+ APPB      20      70      0.205   0.667 0.314    11.36
+ APPB      50      10      0.098   0.333 0.151     5.34
+ APPB      50      35      0.111   0.417 0.175    12.97
+ APPB      50      70      0.100   0.333 0.154    23.96
+ APPB     100      10      0.000   0.000 0.000    11.01
+ APPB     100      35      0.000   0.000 0.000    30.88
+ APPB     100      70      0.000   0.000 0.000    56.29
+ APPB     250      10      0.000   0.000 0.000    29.87
+ APPB     250      35      0.000   0.000 0.000    78.72
+ APPB     250      70      0.000   0.000 0.000   160.51
+ AEMD       5      10      0.000   0.000 0.000     1.88
+ AEMD       5      35      0.000   0.000 0.000     3.44
+ AEMD       5      70      0.000   0.000 0.000     5.50
+ AEMD      10      10      0.000   0.000 0.000     2.23
+ AEMD      10      35      0.000   0.000 0.000     4.38
+ AEMD      10      70      0.000   0.000 0.000     7.41
+ AEMD      20      10      0.000   0.000 0.000     2.89
+ AEMD      20      35      0.000   0.000 0.000     6.25
+ AEMD      20      70      0.000   0.000 0.000    10.97
+ AEMD      50      10      0.000   0.000 0.000     5.14
+ AEMD      50      35      0.000   0.000 0.000    13.14
+ AEMD      50      70      0.000   0.000 0.000    24.58
+ AEMD     100      10      0.000   0.000 0.000    11.08
+ AEMD     100      35      0.000   0.000 0.000    27.48
+ AEMD     100      70      0.000   0.000 0.000    50.06
+ AEMD     250      10      0.000   0.000 0.000    25.57
+ AEMD     250      35      0.000   0.000 0.000    77.02
+ AEMD     250      70      0.000   0.000 0.000   149.12
+ NBDR       5      10      1.000   0.471 0.640     1.86
+ NBDR       5      35      1.000   0.706 0.828     3.65
+ NBDR       5      70      1.000   0.706 0.828     5.67
+ NBDR      10      10      0.818   0.529 0.643     3.72
+ NBDR      10      35      0.857   0.706 0.774     4.98
+ NBDR      10      70      0.846   0.647 0.733     8.58
+ NBDR      20      10      0.429   0.529 0.474     3.09
+ NBDR      20      35      0.429   0.529 0.474     7.02
+ NBDR      20      70      0.429   0.529 0.474    12.47
+ NBDR      50      10      0.167   0.471 0.246     5.45
+ NBDR      50      35      0.163   0.471 0.242    13.82
+ NBDR      50      70      0.163   0.471 0.242    25.99
+ NBDR     100      10      0.000   0.000 0.000     9.79
+ NBDR     100      35      0.000   0.000 0.000    27.26
+ NBDR     100      70      0.000   0.000 0.000    52.92
+ NBDR     250      10      0.000   0.000 0.000    26.00
+ NBDR     250      35      0.000   0.000 0.000    77.83
+ NBDR     250      70      0.000   0.000 0.000   167.84
+  GME       5      10      0.625   0.769 0.690     1.93
+  GME       5      35      0.562   0.692 0.621     3.78
+  GME       5      70      0.571   0.615 0.593     6.46
+  GME      10      10      0.375   0.462 0.414     2.42
+  GME      10      35      0.423   0.846 0.564     5.04
+  GME      10      70      0.500   0.846 0.629     8.74
+  GME      20      10      0.227   0.385 0.286     3.08
+  GME      20      35      0.227   0.385 0.286     7.11
+  GME      20      70      0.227   0.385 0.286    12.17
+  GME      50      10      0.075   0.231 0.113     5.51
+  GME      50      35      0.061   0.231 0.097    14.41
+  GME      50      70      0.061   0.231 0.097    26.37
+  GME     100      10      0.000   0.000 0.000     9.90
+  GME     100      35      0.000   0.000 0.000    28.33
+  GME     100      70      0.000   0.000 0.000    52.12
+  GME     250      10      0.000   0.000 0.000    26.19
+  GME     250      35      0.000   0.000 0.000    83.75
+  GME     250      70      0.000   0.000 0.000   159.56
+
+
+SOURCE: 분석 데이터(autoencoder, 감성분석, xgboost).ipynb; original cell index: 17; execution_count: 105
+
+=== Table 2 (LSTM Autoencoder 기준) – Best approach for each data set ===
+Stock  Best window  Best epochs  F1-score  Elapsed time (s)
+ AEMD            5           10     0.000              1.88
+ APPB           10           70     0.516              7.77
+  GME            5           10     0.690              1.93
+ NBDR            5           35     0.828              3.65
+ TRBO            5           35     0.583              3.06
+
+
+SOURCE: 분석 데이터(autoencoder, 감성분석, xgboost).ipynb; original cell index: 26; execution_count: 142
+Best threshold (F1-max): 0.989
+XGBoost 통합분류 결과
+Precision: 0.600
+Recall:    0.750
+F1-score:  0.667
+ROC-AUC:   0.787
+
+
+SOURCE: 분석 데이터(autoencoder, 감성분석, xgboost).ipynb; original cell index: 30; execution_count: 154
+  Stock  Precision  Recall  F1-score  Best threshold
+0  AEMD   0.571429    1.00  0.727273        0.994298
+1  TRBO   0.666667    1.00  0.800000        0.964766
+2  NBDR   0.555556    1.00  0.714286        0.999030
+3   GME   0.333333    0.75  0.461538        0.988134
+4  APPB   0.666667    1.00  0.800000        0.996580

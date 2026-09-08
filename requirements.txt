@@ -1,0 +1,13 @@
+# Unpinned inventory inferred from actual code, NOT a verified original environment.
+# Recover the historical lock file before claiming reproducibility.
+numpy
+pandas
+matplotlib
+tqdm
+yfinance
+scikit-learn
+keras
+tensorflow
+transformers
+torch
+xgboost
