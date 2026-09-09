@@ -1,0 +1,106 @@
+{
+  "check": "offline_news_preflight",
+  "historical_training_reproduced": false,
+  "ok": false,
+  "files": [
+    {
+      "ticker": "AEMD",
+      "file": "AEMD_augmented.csv",
+      "encoding": "utf-8-sig",
+      "window_start": "2018-01-22",
+      "window_end_exclusive": "2021-02-07",
+      "records": 131,
+      "valid_width_records": 131,
+      "date_min": "2023-08-14",
+      "date_max": "2025-05-14",
+      "unique_dates": 18,
+      "records_in_window": 0,
+      "errors": [
+        {
+          "code": "missing_columns",
+          "required": [
+            "Date",
+            "Headline",
+            "Summary"
+          ]
+        },
+        {
+          "code": "no_date_overlap"
+        }
+      ],
+      "warnings": [],
+      "ok": false
+    },
+    {
+      "ticker": "APPB",
+      "file": "APPB_augmented.csv",
+      "encoding": "utf-8-sig",
+      "window_start": "2018-03-25",
+      "window_end_exclusive": "2021-04-13",
+      "records": 58,
+      "valid_width_records": 58,
+      "date_min": "2019-01-03",
+      "date_max": "2020-04-27",
+      "unique_dates": 13,
+      "records_in_window": 58,
+      "errors": [],
+      "warnings": [],
+      "ok": true
+    },
+    {
+      "ticker": "GME",
+      "file": "GME_augmented.csv",
+      "encoding": "utf-8-sig",
+      "window_start": "2019-01-11",
+      "window_end_exclusive": "2022-01-29",
+      "records": 36,
+      "valid_width_records": 35,
+      "date_min": "2020-08-31",
+      "date_max": "2021-04-26",
+      "unique_dates": 9,
+      "records_in_window": 35,
+      "errors": [
+        {
+          "code": "column_count",
+          "record": 28,
+          "expected": 4,
+          "actual": 5
+        }
+      ],
+      "warnings": [],
+      "ok": false
+    },
+    {
+      "ticker": "NBDR",
+      "file": "NBDR_augmented.csv",
+      "encoding": "utf-8-sig",
+      "window_start": "2018-03-11",
+      "window_end_exclusive": "2021-04-03",
+      "records": 31,
+      "valid_width_records": 31,
+      "date_min": "2019-01-29",
+      "date_max": "2020-04-03",
+      "unique_dates": 7,
+      "records_in_window": 31,
+      "errors": [],
+      "warnings": [],
+      "ok": true
+    },
+    {
+      "ticker": "TRBO",
+      "file": "TRBO_augmented.csv",
+      "encoding": "utf-8-sig",
+      "window_start": "2018-03-30",
+      "window_end_exclusive": "2021-04-09",
+      "records": 24,
+      "valid_width_records": 24,
+      "date_min": "2019-04-02",
+      "date_max": "2020-04-16",
+      "unique_dates": 6,
+      "records_in_window": 24,
+      "errors": [],
+      "warnings": [],
+      "ok": true
+    }
+  ]
+}
