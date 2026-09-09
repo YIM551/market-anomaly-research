@@ -36,3 +36,6 @@ checkpoints/
 *.pptx
 *.hwpx
 *.zip
+
+# Reviewed publication derivative only
+!docs/research/historical-paper-redacted.pdf

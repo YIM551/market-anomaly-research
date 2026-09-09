@@ -1,14 +1,16 @@
 {
   "name": "market-anomaly-research",
   "owner": "YIM551",
-  "description": "Exploratory stock anomaly detection combining LSTM reconstruction errors, FinBERT news sentiment and XGBoost.",
+  "description": "Research combining trading-volume reconstruction and news sentiment, with original result figures and an auditable evaluation review.",
   "topics": [
     "anomaly-detection",
     "time-series",
+    "data-quality",
+    "financial-data",
     "finbert",
     "lstm",
     "xgboost",
     "python",
-    "multimodal"
+    "research"
   ]
 }

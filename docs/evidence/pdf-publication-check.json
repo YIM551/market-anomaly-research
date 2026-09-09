@@ -1,0 +1,29 @@
+{
+  "file": "historical-paper-redacted.pdf",
+  "pages": 19,
+  "source_sha256": "96a0145904fa7f671acf34517457e424ddebe49dd4169199f6dc3e1b73fdcd98",
+  "output_sha256": "f7744f7649dc90769443d927efa1e54bf51033dd284885835c90d15a838dcf4d",
+  "original_unchanged": true,
+  "removed_illustration_absent": true,
+  "sensitive_text_scan_passed": true,
+  "embedded_files": 0,
+  "render_review": "passed: all 19 pages",
+  "unchanged_original_pages_text_match": [
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ]
+}

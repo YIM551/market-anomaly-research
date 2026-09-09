@@ -1,0 +1,102 @@
+[
+  {
+    "path": "assets/aemd-ae.png",
+    "source_file": "AEMD.png",
+    "source_group": "original research detection figures",
+    "sha256": "05d74289e6da0820043b0c7b88d3896a4b6c76bfe1642ea9a436e96afe7d6e30",
+    "historical_output": true,
+    "rerun": false,
+    "visually_reviewed": "2026-09-10",
+    "limitation": "Run/threshold may differ from tabulated scores; use as qualitative evidence."
+  },
+  {
+    "path": "assets/aemd-integrated.png",
+    "source_file": "AEMD_XG.png",
+    "source_group": "original research detection figures",
+    "sha256": "ea954859db0eb8ff263fb14f5d3b470f36f1809934578f4b441aadc3512ff6af",
+    "historical_output": true,
+    "rerun": false,
+    "visually_reviewed": "2026-09-10",
+    "limitation": "Run/threshold may differ from tabulated scores; use as qualitative evidence."
+  },
+  {
+    "path": "assets/appb-ae.png",
+    "source_file": "APPB.png",
+    "source_group": "original research detection figures",
+    "sha256": "cb5a3f8ff98dfa6f2707d6e07e166e55a7bcede61a3bd9042ec10b83fc9da2a9",
+    "historical_output": true,
+    "rerun": false,
+    "visually_reviewed": "2026-09-10",
+    "limitation": "Run/threshold may differ from tabulated scores; use as qualitative evidence."
+  },
+  {
+    "path": "assets/appb-integrated.png",
+    "source_file": "APPB_XG.png",
+    "source_group": "original research detection figures",
+    "sha256": "84b3210311605296eba385d696731f23bbd14dc190b2daaaf66ff2facd3d567c",
+    "historical_output": true,
+    "rerun": false,
+    "visually_reviewed": "2026-09-10",
+    "limitation": "Run/threshold may differ from tabulated scores; use as qualitative evidence."
+  },
+  {
+    "path": "assets/gme-ae.png",
+    "source_file": "GME.png",
+    "source_group": "original research detection figures",
+    "sha256": "6a2a15f48a0177b4a4eddd368a358aafdd29de5c740073c13ca493c3dd9899f3",
+    "historical_output": true,
+    "rerun": false,
+    "visually_reviewed": "2026-09-10",
+    "limitation": "Run/threshold may differ from tabulated scores; use as qualitative evidence."
+  },
+  {
+    "path": "assets/gme-integrated.png",
+    "source_file": "GME_XG.png",
+    "source_group": "original research detection figures",
+    "sha256": "d4fe29c0063fe920d83dc68558fd47d85a4b6867008af11d929c842b2e36f380",
+    "historical_output": true,
+    "rerun": false,
+    "visually_reviewed": "2026-09-10",
+    "limitation": "Run/threshold may differ from tabulated scores; use as qualitative evidence."
+  },
+  {
+    "path": "assets/nbdr-ae.png",
+    "source_file": "NBDR.png",
+    "source_group": "original research detection figures",
+    "sha256": "bc98246d9832f49e66a621acc21cc160c5d00b2d4dfb77a4412ba21d8a763276",
+    "historical_output": true,
+    "rerun": false,
+    "visually_reviewed": "2026-09-10",
+    "limitation": "Run/threshold may differ from tabulated scores; use as qualitative evidence."
+  },
+  {
+    "path": "assets/nbdr-integrated.png",
+    "source_file": "NBDR_XG.png",
+    "source_group": "original research detection figures",
+    "sha256": "ec2c3fd2c53f863ffab50c30e61c9e1be50caf3a4e6cdfb6e6a992c809f73f03",
+    "historical_output": true,
+    "rerun": false,
+    "visually_reviewed": "2026-09-10",
+    "limitation": "Run/threshold may differ from tabulated scores; use as qualitative evidence."
+  },
+  {
+    "path": "assets/trbo-ae.png",
+    "source_file": "TRBO.png",
+    "source_group": "original research detection figures",
+    "sha256": "6f64734c078d768c8c20789dc232e3582886eb3f3f0ed90b68ee3298564fdbc9",
+    "historical_output": true,
+    "rerun": false,
+    "visually_reviewed": "2026-09-10",
+    "limitation": "Run/threshold may differ from tabulated scores; use as qualitative evidence."
+  },
+  {
+    "path": "assets/trbo-integrated.png",
+    "source_file": "TRBO_XG.png",
+    "source_group": "original research detection figures",
+    "sha256": "24ed3675a56eaba8f82b2f7c81a12156d313e9a084096cdcd9f8aa0e7cf0fce2",
+    "historical_output": true,
+    "rerun": false,
+    "visually_reviewed": "2026-09-10",
+    "limitation": "Run/threshold may differ from tabulated scores; use as qualitative evidence."
+  }
+]

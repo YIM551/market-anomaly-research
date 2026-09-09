@@ -1,0 +1,14 @@
+{
+  "source": "Original exploration notebook cell 14, stored output; not rerun",
+  "stock": "GME",
+  "unit": "news date",
+  "n": 9,
+  "tp": 3,
+  "fp": 5,
+  "fn": 0,
+  "tn": 1,
+  "precision": 0.375,
+  "recall": 1.0,
+  "f1": 0.5454545454545454,
+  "independent_test": false
+}
